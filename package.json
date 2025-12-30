@@ -8,7 +8,7 @@
   "scripts": {
     "build": "nest build",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
-    "start": "nest start & json-server --watch db.json --port 3002",
+    "start": "nest start",
     "json": "json-server --watch db.json --port 3002",
     "start:dev": "nest start --watch",
     "start:debug": "nest start --debug --watch",
